@@ -26,7 +26,7 @@ const Hero = () => {
             {/* AI Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full card-glass border">
               <Sparkles className="w-4 h-4 text-secondary" />
-              <span className="text-sm font-medium text-muted-foreground">AI-Powered Growth Engine</span>
+              <span className="text-sm font-medium text-muted-foreground">AI-Powered Growth mayank  Engine</span>
             </div>
 
             {/* Main Headlines */}
