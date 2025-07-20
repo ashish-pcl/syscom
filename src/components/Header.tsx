@@ -5,15 +5,16 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="max-w-7xl mx-auto container-padding">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-1">
           {/* Logo */}
           <div className="flex items-center">
-            <img
-              src="/logo.png"
-              alt="SysComm International Logo"
-              className="h-8 md:h-10 w-auto"
-            />
-
+            <a href="/">
+              <img
+                src="/logo.png"
+                alt="SysComm International Logo"
+                className="h-12 md:h-14 w-auto"
+              />
+            </a>
           </div>
 
           {/* Navigation */}
@@ -42,3 +43,4 @@ const Header = () => {
 };
 
 export default Header;
+
